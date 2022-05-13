@@ -1,5 +1,5 @@
 const { v4: uuid } = require("uuid");
-const Workout = require("../database/Workout");
+const Workout = require("../dataService/Workout");
 
 const getAllWorkouts = () => {
   try {
